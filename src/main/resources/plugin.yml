@@ -1,0 +1,20 @@
+name: LifeSteal
+version: 1.0.0
+main: com.lifesteal.LifeStealPlugin
+api-version: 1.21
+description: Lifesteal SMP plugin - steal hearts on kill, lose hearts on death.
+author: YourName
+
+commands:
+  heart:
+    description: Lifesteal heart management command
+    usage: /heart [check|give|set|revive|item] [player] [amount]
+    permission: lifesteal.use
+
+permissions:
+  lifesteal.use:
+    description: Allows basic heart commands
+    default: true
+  lifesteal.admin:
+    description: Allows admin heart commands
+    default: op
