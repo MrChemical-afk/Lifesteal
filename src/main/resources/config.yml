@@ -1,0 +1,7 @@
+starting-hearts: 10
+min-hearts: 1
+max-hearts: 20
+hearts-lost-on-death: 1
+hearts-gained-on-kill: 1
+drop-heart-on-death: true
+ban-on-elimination: true
