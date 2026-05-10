@@ -29,9 +29,8 @@ public class CraftingListener implements Listener {
         NamespacedKey key = new NamespacedKey(plugin, "heart_item");
 
         ShapedRecipe recipe = new ShapedRecipe(key, heartItem);
-        recipe.shape("NBN", "BSB", "NBN");
-        recipe.setIngredient('N', Material.NETHERITE_INGOT);
-        recipe.setIngredient('B', Material.BEACON);
+        recipe.shape("DDD", "DSD", "DDD");
+        recipe.setIngredient('D', Material.DIAMOND_BLOCK);
         recipe.setIngredient('S', Material.NETHER_STAR);
 
         plugin.getServer().addRecipe(recipe);
