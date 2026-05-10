@@ -19,7 +19,7 @@ public class HeartItem {
             meta.setDisplayName(HEART_ITEM_TAG);
             List<String> lore = Arrays.asList(
                 "§7Right-click to gain §c+1 §7max heart.",
-                "§7Craft with §64 Netherite Ingots §7+ §64 Beacons §7+ §fNether Star§7."
+                "§7Craft with §68 Diamond Blocks §7+ §fNether Star§7."
             );
             meta.setLore(lore);
             item.setItemMeta(meta);
